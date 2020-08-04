@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Clockwork Mage</name>
+		<update version="1.0">
+			<file name="Clockwork_Mage.xml"/>
+		</update>
+	</info>
+
+<element name="Spiritualist" type="Class" source="Clockwork_Mage" id="ID_WIKI_CLASS_CLOCKWORK_MAGE">
+	<description>
+        <p class="indent">A group of goblins come running down the passageway of the maze. The gnome man pulls out a music box and winds it, and then he puts it down and opens it. The music plays and the goblins fall asleep.</p>
+	    <p class="indent">A Human woman sits in her inn room. She pulls out a small clockwork bird. She winds the bird up and then whispers something to the bird and it takes off flying out of the window.</p>
+	    <p class="indent">The Clockwork Mage places down a small clockwork spider. The Clockwork Mage winds it up. The Spider turns around and fires web all over the place.</p>
+        <h4>KEY TO CLOCKWORK MAGE</h4>
+        <p> Clockwork Mages turn magic from its ancient role as a mysterious power into a modernized tool. Clockwork Mage - A mage who combine spellcasting with the principles of clockwork technology, bringing magic to the common man and creating conveniences that will march the world toward a future where magic and science are one.</p>
+        <p class="indent">Though they have many opponents who want to defend the old ways, the Clockwork Mages have powerful weapons at their disposal, and the fantastic revolution seems inevitable. Most other magic users do not see Clockwork Magic as a real type of magic. This may lead to a Clockwork Mage being forbidden from entering the local magic guild or school, to be mocked by other magic users, and much more. It’s not uncommon for Clockwork Mages to make their own guilds or schools (I’ll make my own guild with blackjack and hookers).</p>
+        <h4>CREATING A CLOCKWORK MAGE</h4>
+        <p> Now think about what makes up your character, what is their background? How did they end up as a Clockwork Mage? Were they forced into it by a family member who is a Clockwork Mage? Was it something they chose to do as a thrill and a fun way to make money? Do they regret for all the hours they put into studying an art most other magic users see as a false magic? Do they look fondly at that time in their life? Do they speak openly about their craft or are they guarded about it, keeping it to themselves.</p>
+        <p class="indent">Now what made them start adventuring? Did they decide to do this for the next thrill? Was it by pure chance you were in the wrong place at the right moment? Are you looking for something existential or personal? All these questions lead to a better understanding of your character and their motivations.</p>
+        <h5 class="caption">QUICK BUILD</h5>
+        <p>You can make a Clockwork Mage quickly by following these suggestions. First, Int should be your highest ability score, followed by Dex, followed by Con. Choose the Guild Artisan background.</p>
+        <h2>CLASS FEATURES</h2>
+        <p>As a Clockwork Mage you gain the following class features.</p>
+        <h5 class="caption">HIT POINTS</h5>
+        <p>
+            <span class="emphasis">Hit Dice:</span>1d6 per Clockwork Mage level<br/>
+            <span class="emphasis">Hit Points at 1st Level:</span>6 + your Constitution modifier<br/>
+            <span class="emphasis">Hit Points at Higher Levels:</span>1d6 (or 4) + your Constitution modifier per Clockwork Mage level after 1st<br/>
+        </p>
+        <h5>PROFICIENCIES</h5>
+        <p>
+            <span class="emphasis">Armor:</span>Medium armor<br/>
+            <span class="emphasis">Weapons:</span>Martial Melee, simple weapons, Light Crossbow<br/>
+            <span class="emphasis">Tools:</span>Artisan's Tools, Jeweler’s Tools<br/>
+        </p>
+        <p>
+            <span class="emphasis">Saving Throws:</span>Intelligence, Dexterity<br/>
+            <span class="emphasis">Skills:</span>Choose two from Arcana, Deception, History, Intimidation, Medicine, Perception, and Religion<br/>
+        </p>
+        <h5 class="caption">EQUIPMENT</h5>
+        <p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+        <ul>
+            <li>(a) Martial Melee Weapons or (b) Light Crossbow</li>
+            <li>Quartz crystal x5, gears x50, cogs x40</li>
+            <li>Medium armour</li>
+            <li>(a) Artisan's Tools or or (b) Jeweler’s Tools</li>
+            <li>(a) Dungeoneer's pack or (b) Explorer's pack</li>
+            <li>If you are using starting wealth, you have 5d4 x 10 gp in funds.</li>
+        </ul>
+    </description>
+    <setters>
+		<set name="hd">d6</set>
+	</setters>
+</element>
+</elements>
